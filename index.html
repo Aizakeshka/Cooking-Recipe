@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Recipe App</title>
+    <link rel="icon" type="image" href="image/recipe.logo-round.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <aside class="sidebar">
+            <nav class="nav-menu">
+                <a href="#" class="nav-item active" data-category="Home">
+                    <img src="image/home.icon.png" width="20" height="20">
+                    Home
+                </a>
+                <a href="#" class="nav-item" data-category="Breakfast">
+                    <img src="image/breakfast.icon.png" width="20" height="20">
+                    Breakfast
+                </a>
+                <a href="#" class="nav-item" data-category="Lunch">
+                    <img src="image/lunch.icon.png" width="20" height="20">
+                    Lunch
+                </a>
+                <a href="#" class="nav-item" data-category="Vegetarian">
+                    <img src="image/vegetarian.icon.png" width="20" height="20">
+                    Vegetarian
+                </a>
+                <a href="#" class="nav-item" data-category="Dessert">
+                    <img src="image/dessert.icon.png" width="20" height="20">
+                    Dessert
+                </a>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <div class="header-wave">
+                <div class="wave-content">
+                    <h1 class="wave-title">LUNCH</h1>
+                    <img src="game-icons_cook.png" width="70" height="60">
+                </div>
+
+                <svg class="wave-bg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M0,0 C300,80 600,80 900,40 C1050,20 1150,0 1200,0 L1200,120 L0,120 Z"></path>
+                </svg>
+            </div>
+
+            <div class="search-wrapper">
+                <div class="search-box">
+                    <input id="recipeInput" type="text" placeholder="Search recipe..." />
+                    <button id="searchBtn">Search</button>
+                </div>
+            </div>
+
+            <div class="recipe-container">
+                <div class="recipe-content">
+                    <div class="recipe-details">
+                        <div class="ingredients-section">
+                            <h2 id="recipeTitle" class="recipe-title"></h2>
+                            <br>
+                            <h3>Ingredients</h3>
+                            <ul class="ingredients-list" id="ingredientsList"></ul>
+                            <div class="recipe-info" id="recipeInfo" style="display:none;"></div>
+                        </div>
+
+                        <div class="image-section">
+                            <img src="" alt="Recipe Image" class="recipe-image" id="recipeImage" style="display:none;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
