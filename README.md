@@ -29,7 +29,14 @@ https://www.figma.com/design/WVE1fOWTOWdH7todGM2liV/Cooking-Recipe-t5--cc--Commu
 ## 🧩 Структура проекта
 
 ```Cooking-Recipe/
+│── /image         # Папка с иконками и изображениями
+      ├── breakfast.icon.png
+      ├── dessert.icon.png
+      ├── game_icons_cook.png
+      ├── home.icon.png
+      ├── lunch.icon.png
+      ├── recipe.logo-round.png
+      └── vegetarian.icon.png
 │── index.html      # Основная разметка
-│── styles.css      # Стили
-│── script.js       # Логика приложения
-│── image/          # Иконки и изображения
+│── style.css      # Стили
+└── main.js       # Логика приложения
