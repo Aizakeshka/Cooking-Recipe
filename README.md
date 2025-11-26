@@ -37,6 +37,6 @@ https://www.figma.com/design/WVE1fOWTOWdH7todGM2liV/Cooking-Recipe-t5--cc--Commu
       ├── lunch.icon.png
       ├── recipe.logo-round.png
       └── vegetarian.icon.png
-│── index.html      # Основная разметка
+│── index.html     # Основная разметка
 │── style.css      # Стили
-└── main.js       # Логика приложения
+└── main.js        # Логика приложения
