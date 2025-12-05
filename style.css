@@ -343,3 +343,173 @@ body {
         font-size: 32px;
     }
 }
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .color-sidebar {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: center;
+        padding: 15px 0;
+        gap: 20px;
+        order: -1;
+    }
+    
+    .sidebar {
+        width: 100%;
+        padding: 20px 0;
+    }
+    
+    .nav-menu {
+        flex-direction: row;
+        overflow-x: auto;
+        padding: 0 15px;
+    }
+    
+    .nav-item {
+        white-space: nowrap;
+        padding: 12px 20px;
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+    
+    .nav-item:hover {
+        padding-left: 20px;
+    }
+    
+    .nav-item.active {
+        margin: 0 10px 0 0;
+    }
+    
+    .header-wave {
+        height: auto;
+        padding: 20px;
+    }
+    
+    .wave-content {
+        position: static;
+        justify-content: center;
+        padding: 20px 0;
+    }
+    
+    .wave-title {
+        font-size: 32px;
+    }
+    
+    .category-title {
+        font-size: 32px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .recipe-title {
+        font-size: 28px;
+    }
+    
+    .search-wrapper {
+        padding: 15px 20px;
+    }
+    
+    .search-box {
+        max-width: 100%;
+    }
+    
+    #searchInput, #recipeInput {
+        font-size: 16px;
+    }
+    
+    .recipe-container {
+        padding: 30px 20px;
+    }
+    
+    .recipe-details {
+        gap: 30px;
+    }
+    
+    .ingredients-section h3 {
+        font-size: 20px;
+    }
+    
+    .recipe-info {
+        padding: 20px;
+    }
+    
+    .info-row {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .recipe-image {
+        height: 250px;
+    }
+    
+    .action-buttons {
+        gap: 10px;
+    }
+    
+    .action-btn {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .wave-title {
+        font-size: 24px;
+    }
+    
+    .category-title {
+        font-size: 24px;
+    }
+    
+    .recipe-title {
+        font-size: 22px;
+    }
+    
+    .search-wrapper {
+        padding: 10px 15px;
+    }
+    
+    .recipe-container {
+        padding: 20px 15px;
+    }
+    
+    .recipe-details {
+        gap: 20px;
+    }
+    
+    .ingredients-list li {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+    
+    .recipe-info {
+        padding: 15px;
+    }
+    
+    .info-label {
+        font-size: 12px;
+    }
+    
+    .info-value {
+        font-size: 14px;
+    }
+    
+    .recipe-image {
+        height: 200px;
+        border-radius: 10px;
+    }
+    
+    .action-btn {
+        width: 45px;
+        height: 45px;
+    }
+    
+    .color-btn {
+        width: 30px;
+        height: 30px;
+    }
+}
